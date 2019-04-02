@@ -1,0 +1,84 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 130px;
+  padding: 0;
+  width: 250px;
+}
+
+h1 {
+  font-family: "Menlo", monospace;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(33, 129, 247);
+}
+
+.modal-header {
+  align-items: center;
+  background-color: rgb(16, 72, 139);
+}
+
+.title {
+  padding: 10px;
+  margin-left: 50px;
+  vertical-align: middle;
+  color: white;
+}
+
+button {
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+a:link,
+a:visited {
+  color: #000000;
+  outline: 0;
+  text-decoration: none;
+}
+
+img {
+  width: 80px;
+}
+
+.logo-icon {
+  vertical-align: middle;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.flex:hover {
+  opacity: 0.4;
+}
+
+#downloadlink {
+  display: none;
+}
+
+.loadFile {
+  margin-left: 60px;
+}
